@@ -8,8 +8,7 @@ Extraction of license plate numbers using Tesseract OCR Engine.
  
 Out of various object detection models, like Faster-RCNN, SSD, YOLO, etc., YOLOv3 achieves a better Mean Average Precision (mAP) while maintaining a commendable Frame Rate on the Microsoft Common Objects in Context (MS COCO) dataset (based on the original YOLO v3 paper at https://arxiv.org/pdf/1804.02767.pdf). Tesseract Optical Character Recognition (OCR) Engine was chosen as it is one of leading, accurate, and industry grade OCR engine that is available. Moreover, it can produce better results with minimum hardware requirement, unlike other models like EasyOCR which works better only with a GPU enabled environment. The architecture/flow diagram of the proposed method is given in Figure 1.  
 
-
- 
+![alt text](https://github.com/Vigneshbaalaji/Automatic_License_Plate_Detection_from_Videos_using_YOLOv3_and_Tesseract_OCR_Engine/blob/09aa26dd58eaf56f21a3f2af02379be6c0a926f1/Architecture:Flow%20Diagram.png?raw=true)
  
 ## DETECTION AND LOCALIZATION USING YOLO-V3: 
  
