@@ -1,5 +1,6 @@
 # Automatic_License_Plate_Detection_from_Videos_using_YOLOv3_and_Tesseract_OCR_Engine
 
+## INTRODUCTION
 For the given challenge, I have considered the use of YOLOv3 Object Detection Algorithm and Tesseract OCR Engine for extraction of license plate numbers from the video. The entire project has been divided into three modules namely, 
  
 1) Detection and Localization of License Plates in each frame using YOLOv3. 
