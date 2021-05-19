@@ -2,9 +2,11 @@
 
 For the given challenge, I have considered the use of YOLOv3 Object Detection Algorithm and Tesseract OCR Engine for extraction of license plate numbers from the video. The entire project has been divided into three modules namely, 
  
-Detection and Localization of License Plates in each frame using YOLOv3. 
-Preprocessing the license plate images from each frame using OpenCV for text extraction. 
-Extraction of license plate numbers using Tesseract OCR Engine. 
+1) Detection and Localization of License Plates in each frame using YOLOv3. 
+
+2) Preprocessing the license plate images from each frame using OpenCV for text extraction. 
+
+3) Extraction of license plate numbers using Tesseract OCR Engine. 
  
 Out of various object detection models, like Faster-RCNN, SSD, YOLO, etc., YOLOv3 achieves a better Mean Average Precision (mAP) while maintaining a commendable Frame Rate on the Microsoft Common Objects in Context (MS COCO) dataset (based on the original YOLO v3 paper at https://arxiv.org/pdf/1804.02767.pdf). Tesseract Optical Character Recognition (OCR) Engine was chosen as it is one of leading, accurate, and industry grade OCR engine that is available. Moreover, it can produce better results with minimum hardware requirement, unlike other models like EasyOCR which works better only with a GPU enabled environment. The architecture/flow diagram of the proposed method is given in Figure 1.  
 
